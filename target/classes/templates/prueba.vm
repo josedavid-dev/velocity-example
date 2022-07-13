@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        ##Parametro de titulo de la pagina
+        <title>${title}</title>
+    </head>
+    <body>
+        <div>
+            #* Foreach de la lista de datos
+            *#
+            #foreach($persona in $personas)
+                <p>$persona.getNombre() - $persona.getEdad()</p>
+            #end
+        </div>
+    </body>
+</html>
